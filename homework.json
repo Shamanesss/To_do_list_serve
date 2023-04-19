@@ -1,6 +1,12 @@
 {
-    "tareas":{
-        "id":1,
-        "texto":"Ir de Copas"
+  "tareas": [
+    {
+      "tarea": "ir de copas",
+      "id": 1
+    },
+    {
+      "tarea": "ir de copas",
+      "id": 2
     }
-} 
+  ]
+}
