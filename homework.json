@@ -1,12 +1,19 @@
 {
   "tareas": [
     {
-      "tarea": "ir de copas",
-      "id": 1
+      "tarea": "Escribir un libro",
+      "id": 3,
+      "editing": false
     },
     {
-      "tarea": "ir de copas",
-      "id": 2
+      "tarea": "Ir de copas",
+      "id": 4,
+      "editing": false
+    },
+    {
+      "tarea": "Viajar a Canada",
+      "id": 5,
+      "editing": false
     }
   ]
 }
