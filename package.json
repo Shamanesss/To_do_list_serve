@@ -1,8 +1,8 @@
 {
-    "name": "my-json-server",
+    "name": "to_do_list_serve",
     "version": "1.0.0",
     "description": "My JSON Server",
-    "main": "server.js",
+    "main": "index.js",
     "scripts": {
       "start": "node server.js"
     },
