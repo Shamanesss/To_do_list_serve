@@ -1,2 +1,2 @@
 Open terminal
-npx json-server --watch homework.json
+npx json-server --watch db.json
