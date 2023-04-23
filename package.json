@@ -4,10 +4,10 @@
     "description": "My JSON Server",
     "main": "index.js",
     "scripts": {
-      "start": "node index.js"
+        "start": "node index.js"
     },
     "dependencies": {
-      "json-server": "^0.16.3"
+        "cors": "^2.8.5",
+        "json-server": "^0.16.3"
     }
-  }
-  
+}
