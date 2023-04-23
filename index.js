@@ -11,14 +11,15 @@ const port = process.env.PORT || 3000;
 server.use(middlewares);
 server.use(router);
 //y esta es la 2 linea
-server.use(cors()); 
+
 server.use((req, res, next) => {
   res.header("Access-Control-Allow-Origin", "https://myfist-json-serve.herokuapp.com/");
   res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
   next();
+  
 });
 
-
+server.use(cors()); 
 server.listen(port, () => {
   console.log(`JSON Server is running on port ${port}`);
 });
