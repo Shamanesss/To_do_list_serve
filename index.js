@@ -6,6 +6,8 @@ const router = jsonServer.router();
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
+server.use(cors())
+
 server.use(middlewares);
 server.use(router);
 
@@ -15,16 +17,16 @@ server.listen(port, () => {
 
 
 //solucionar Problema con las cors
-const express = require('express');
-const cors = require('cors');
+// const express = require('express');
+// const cors = require('cors');
 
-const app = express();
+// const app = express();
 
-app.use(cors({
-  origin: '*',
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-  preflightContinue: false,
-  optionsSuccessStatus: 204
-}));
+// app.use(cors({
+//   origin: '*',
+//   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+//   preflightContinue: false,
+//   optionsSuccessStatus: 204
+// }));
 
 
