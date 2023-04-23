@@ -1,5 +1,5 @@
 
-const data =('db.js')
+const data =('db.json')
 const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router(data);
