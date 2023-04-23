@@ -7,7 +7,6 @@
         "start": "node index.js"
     },
     "dependencies": {
-       
         "json-server": "^0.16.3"
     }
 }
